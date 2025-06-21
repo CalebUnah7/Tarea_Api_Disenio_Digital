@@ -1,0 +1,16 @@
+[{
+    "id":1,
+    "nombre": "Maseca",
+    "precio": 16,
+    "descripcion": "Es un producto de harina de maiz",
+    "disponible": true,
+    "fecha_ingreso":  "2025-06-18T15:25:43.000Z"
+},
+{
+    "id":2,
+    "nombre": "Manteca Clover Kilo",
+    "precio": 58,
+    "descripcion": "Manteca en Kilo marca clover",
+    "disponible": true,
+    "fecha_ingreso":  "2025-06-18T16:10:21.000Z"
+}]

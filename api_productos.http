@@ -1,0 +1,35 @@
+### Lista de productos
+GET http://localhost:3000/productos
+
+### Retornar lista con ID
+GET http://localhost:3000/productos/21
+
+### Agregar producto
+POST http://localhost:3000/productos
+Content-Type: application/json
+
+{
+    "nombre":"Coca-Cola 3L",
+    "precio": 72,
+    "descripcion": "Refresco envasado en plástico",
+    "disponible": false
+}
+
+### Actualizar productos
+PUT http://localhost:3000/productos/1750487666943
+Content-type: application/json
+
+{
+    "nombre":"Coca-Cola 3L",
+    "precio": 70,
+    "descripcion": "Refresco envasado en plástico",
+    "disponible": true
+}
+
+
+### Eliminar Productos
+DELETE http://localhost:3000/productos/1750487666943
+
+
+###Lista de productos disponibles
+GET http://localhost:3000/productos/disponibles
